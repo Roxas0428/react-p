@@ -3,16 +3,17 @@ import Button from "react-bootstrap/Button";
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
-
+import profileImage from "../Images/roxas.png";
 
 const HomePage = () => {
   return (
     <div className="container text-center">
-      <h1>Shin Code</h1> <img src={profileImage} className="profileImage" />
+      <h1>Roxas Code.</h1> <img src={profileImage} className="profileImage" />
       <p>
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+        Roxas Code.<br></br>
+        私は現在ドラッグストアで勤務しており店長をしています。趣味はゲームです。主にHTML/CSS/Javascriptをメインに学習しています。バックエンドにも興味があるのでそちらも現在学習中です。
+        <br></br>
+        エンジニアを目指し毎日勉強をしている最中です。
       </p>
       <section class="page-section" id="services">
         <div className="service">
@@ -26,9 +27,9 @@ const HomePage = () => {
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                <i class="fas fa-question fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">ECサイト</h4>
+              <h4 class="my-3">クイズサイト</h4>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
@@ -82,9 +83,9 @@ const HomePage = () => {
               <p>Firebaseがつかえます</p>
             </div>
           </div>
-          <button type="button" class="btn btn-primary">
+          {/* <button type="button" class="btn btn-primary">
             スキル一覧
-          </button>
+          </button> */}
         </div>
       </section>
     </div>
