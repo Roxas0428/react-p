@@ -11,7 +11,7 @@ const HomePage = () => {
       <h1>Roxas Code.</h1> <img src={profileImage} className="profileImage" />
       <p>
         Roxas Code.<br></br>
-        私は現在ドラッグストアで勤務しており店長をしています。趣味はゲームです。主にHTML/CSS/Javascriptをメインに学習しています。バックエンドにも興味があるのでそちらも現在学習中です。
+        私は現在ドラッグストアの店長をしています。趣味はゲームです。主にHTML/CSS/JavaScriptをメインに学習しています。バックエンドにも興味があるのでそちらも現在学習中です。
         <br></br>
         エンジニアを目指し毎日勉強をしている最中です。
       </p>
@@ -29,11 +29,13 @@ const HomePage = () => {
                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                 <i class="fas fa-question fa-stack-1x fa-inverse"></i>
               </span>
-              <h4 class="my-3">クイズサイト</h4>
+              <h4 class="my-3">クイズゲーム</h4>
+              <a href="https://655bf24d6a7e600ac0090bc4--dulcet-pithivier-3f26a9.netlify.app/">
+                こちらをクリック！
+              </a>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                JavaScriptを使用したクイズゲームになります。<br></br>
+                FF好きの方は是非挑んでみてください。
               </p>
             </div>
             <div class="col-md-4">
@@ -42,10 +44,10 @@ const HomePage = () => {
                 <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
               </span>
               <h4 class="my-3">レスポンシブサイト</h4>
+              <a href="">こちらをクリック！</a>
               <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                maxime quam architecto quo inventore harum ex magni, dicta
-                impedit.
+                vite/HTML/CSSを利用した自己紹介サイトを作成しました。<br></br>
+                Splide.jsを導入しスライダーを入れてみました。
               </p>
             </div>
             <div class="col-md-4">
@@ -54,6 +56,7 @@ const HomePage = () => {
                 <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
               </span>
               <h4 class="my-3">ウェブセキュリティ</h4>
+              <a href="">こちらをクリック！</a>
               <p class="text-muted">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                 maxime quam architecto quo inventore harum ex magni, dicta
