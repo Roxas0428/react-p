@@ -44,10 +44,11 @@ const HomePage = () => {
                 <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
               </span>
               <h4 class="my-3">レスポンシブサイト</h4>
-              <a href="">こちらをクリック！</a>
+              <a href="https://stunning-peony-74a3c7.netlify.app/">
+                こちらをクリック！
+              </a>
               <p class="text-muted">
-                vite/HTML/CSSを利用した自己紹介サイトを作成しました。<br></br>
-                Splide.jsを導入しスライダーを入れてみました。
+                HTML/CSSを利用したwebサイトを作成しました。<br></br>
               </p>
             </div>
             <div class="col-md-4">
